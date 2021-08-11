@@ -30,7 +30,7 @@ contract CoddedToken {
         emit Transfer(address(0), msg.sender, totalSupply);
     }
 
-    function DappToken (uint256 _initialSupply) public {
+    function Codded (uint256 _initialSupply) public {
         balanceOf[msg.sender] = _initialSupply;
         totalSupply = _initialSupply;
     }
